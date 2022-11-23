@@ -1,0 +1,120 @@
+.Title{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+.imagenes {
+    background-color: rgb(255, 255, 255);
+    padding-inline: 4rem;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-family: 'Sen', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 19.5rem;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.menu-logo {
+    height: 67px;
+    top: 50%;
+}
+
+.menu-itf-logo {
+    height: 5.26rem;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.nav-item {
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20rem;
+}
+
+.CinturonImage{
+    border-radius: .5rem;
+    transition: transform .3s ease;
+    width: 33%;
+    height: 50%;
+}
+
+#Blanco {
+    color: white;
+}
+
+#Punta_A {
+    color: rgb(246, 213, 127);
+}
+
+#Amarillo {
+    color: yellow;
+}
+
+#Punta_V {
+    color: rgb(126, 255, 57);
+}
+
+#Verde {
+    color: hsl(110, 100%, 50%);
+}
+
+#Punta_AZ {
+    color: rgb(43, 155, 170);
+}
+
+#Azul {
+    color: rgb(55, 0, 255);
+}
+
+#Punta_R {
+    color: rgb(255, 71, 71);
+}
+
+#Roja {
+    color: rgb(255, 0, 0);
+}
+
+#Punta_N{
+    color: rgb(54, 54, 54);
+}

@@ -1,0 +1,190 @@
+.Title {
+    font-family: "Roboto Slab";
+    font-weight: 700px;
+    font-size: 3rem;
+    
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+h1.titulo {
+    text-align: center;
+}
+
+.imagenes {
+    background-color: rgb(255, 255, 255);
+    padding-inline: 4rem;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-family: 'Sen', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;  
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 19.5rem;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.menu-logo {
+    height: 67px;
+    top: 50%;
+}
+
+.menu-itf-logo{
+    height: 5.26rem;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-item {
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20rem;
+}
+
+
+.TulImagen {
+    border-radius: .5rem;
+    transition: transform .3s ease;
+    width: 250px;
+}
+
+.PrincipioImage {
+    height: 20rem;
+}
+
+.TulImagen {
+    transform: scale(1.05);
+    border-radius: .5rem;
+    transition: transform .3s ease;
+    width: 70%;
+}
+
+.ContenidoGeneral {
+    line-height: 1.7;
+}
+
+.Nav_li{
+    color: rgb(0, 0, 0);
+    list-style: inherit;
+}
+
+.TulSection {
+    width: 90%;
+    margin: auto;
+}
+
+.Tul_Blanco0{
+    height: 27rem;
+    transform: scale(1.05);
+    border-radius: .5rem;
+    display: block;
+}
+
+.Tul_Blanco01 {
+    height: 27rem;
+    transform: scale(1.05);
+    border-radius: .5rem;
+    display: block;
+}
+
+.Tul_P-AM {
+    transform: scale(1.05);
+    border-radius: .5rem;
+    transition: transform .3s ease;
+}
+
+.Tul_Amarillo {
+    transform: scale(1.05);
+    border-radius: .5rem;
+    transition: transform .3s ease;
+}
+
+.Tul_P-V {
+    transform: scale(1.05);
+    border-radius: .5rem;
+    transition: transform .3s ease;
+}
+
+.Tul_Verde {
+    transform: scale(1.05);
+    border-radius: .5rem;
+    transition: transform .3s ease;
+}
+
+.Tul_P-AZ {
+    transform: scale(1.05);
+    border-radius: .5rem;
+    transition: transform .3s ease;
+    width: 41.5rem;
+}
+
+.Tul_Azul {
+    transform: scale(1.05);
+    border-radius: .5rem;
+    transition: transform .3s ease;
+}
+
+.Tul_P-R {
+    transform: scale(1.05);
+    border-radius: .5rem;
+    transition: transform .3s ease;
+}
+
+.Tul_Roja {
+    transform: scale(1.05);
+    border-radius: .5rem;
+    transition: transform .3s ease;
+    width: 42rem;
+}
+
+.Tul_P-N {
+    transform: scale(1.05);
+    border-radius: .5rem;
+    transition: transform .3s ease;
+    width: 41.5rem;
+}
+
+.ContenidoGeneral {
+    line-height: 1.7;
+}
+
+.Nav_li{
+    color: #fff;
+    list-style: inherit;
+}
+
