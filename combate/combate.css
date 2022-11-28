@@ -1,8 +1,8 @@
-.Title{
+.Title {
     font-family: "Roboto Slab";
     font-weight: 700;
     font-size: 3rem;
-    
+
 }
 
 :root {
@@ -27,7 +27,7 @@ body {
 }
 
 .menu {
-     position: sticky;
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,11 +38,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1px solid rgb(56, 56, 56);
-}
-
-.menu-logo {
-    height: 67px;
-    top: 50%;
 }
 
 .menu-itf-logo {
@@ -80,8 +75,15 @@ a {
 }
 
 .Combate02Image {
-    
+
     border-radius: .5rem;
     transition: transform .3s ease;
     height: 25rem;
+    width: 50%;
+}
+
+.combate-sparring {
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+    width: 90%;
 }

@@ -39,11 +39,6 @@ body {
     border-bottom: 1px solid rgb(56, 56, 56);
 }
 
-.menu-logo {
-    height: 67px;
-    top: 50%;
-}
-
 .menu-itf-logo {
     height: 5.26rem;
 }
@@ -68,61 +63,122 @@ a {
 
 .Main {
     display: flex;
-
     flex-direction: column;
-    margin: 0 20rem;
+    padding: 0 20rem;
 }
 
-.ChoiImages {
+.EscuelaImages {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 19rem;
+    
+}
+
+.EscuelaImage1 {
+    border-radius: .5rem;
+    transition: transform .3s ease;
+    width: 100%;
+}
+
+.EscuelaImage2 {
+    border-radius: .5rem;
+    transition: transform .3s ease;
+    width: 100%;
+}
+
+.EscuelaImage1:hover {
+    transform: scale(1.05);
+    transition: transform .3s ease;
+}
+
+.EscuelaImage2:hover {
+    transform: scale(1.05);
+    transition: transform .3s ease;
+}
+
+.GaleriaImages {
     display: flex;
     gap: 1rem;
     width: 100%;
     height: 19rem;
 }
 
-.ChoiImage {
+.GaleriaImage2 {
     border-radius: .5rem;
     transition: transform .3s ease;
-    width: 33%;
+    width: 100%;
 }
 
-.ChoiImage1 {
+.GaleriaImage1 {
     border-radius: .5rem;
     transition: transform .3s ease;
-    width: 33%;
+    width: 58%;
 }
 
-.ChoiImage1:hover {
+
+.GaleriaImage1:hover {
     transform: scale(1.05);
     border-radius: .5rem;
     transition: transform .3s ease;
 }
 
-.ChoiImage:hover {
+.GaleriaImage2:hover {
     transform: scale(1.05);
     border-radius: .5rem;
     transition: transform .3s ease;
 }
 
-.ChoiImage2 {
-    border-radius: .5rem;
-    transition: transform .3s ease;
-    width: 33%;
-}
-
-.ChoiImage2:hover {
+.GaleriaImage3:hover {
     transform: scale(1.05);
     border-radius: .5rem;
     transition: transform .3s ease;
 }
 
 
-.PrincipioImage {
-    height: 20rem;
+
+
+
+.SalonImages {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 19rem;
+}
+
+.SalonImage1 {
+    border-radius: .5rem;
+    transition: transform .3s ease;
+    width: 100%;
+}
+
+.SalonImage2 {
+    border-radius: .5rem;
+    transition: transform .3s ease;
+    width: 100%;
+}
+
+.SalonImage1:hover {
     transform: scale(1.05);
     border-radius: .5rem;
     transition: transform .3s ease;
 }
+
+.SalonImage2:hover {
+    transform: scale(1.05);
+    border-radius: .5rem;
+    transition: transform .3s ease;
+}
+
+
+
+
+
+
+
+
+
+
 
 .TKDImage {
     border-radius: .5rem;

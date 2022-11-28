@@ -9,7 +9,7 @@
 }
 
 .imagenes {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     padding-inline: 4rem;
     box-sizing: border-box;
 }
@@ -81,7 +81,7 @@ a {
 }
 
 #Blanco {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #Punta_A {
