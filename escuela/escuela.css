@@ -1,5 +1,5 @@
-.Title{
-    font-family: "Roboto Slab";
+.Title {
+    font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 3rem;
 }
@@ -72,29 +72,28 @@ a {
     gap: 1rem;
     width: 100%;
     height: 19rem;
-    
 }
 
 .EscuelaImage1 {
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
     width: 100%;
 }
 
 .EscuelaImage2 {
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
     width: 100%;
 }
 
 .EscuelaImage1:hover {
     transform: scale(1.05);
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
 }
 
 .EscuelaImage2:hover {
     transform: scale(1.05);
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
 }
 
 .GaleriaImages {
@@ -105,39 +104,34 @@ a {
 }
 
 .GaleriaImage2 {
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
     width: 100%;
 }
 
 .GaleriaImage1 {
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
     width: 58%;
 }
 
-
 .GaleriaImage1:hover {
     transform: scale(1.05);
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
 }
 
 .GaleriaImage2:hover {
     transform: scale(1.05);
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
 }
 
 .GaleriaImage3:hover {
     transform: scale(1.05);
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
 }
-
-
-
-
 
 .SalonImages {
     display: flex;
@@ -147,69 +141,59 @@ a {
 }
 
 .SalonImage1 {
-    border-radius: .5rem;
-    transition: transform .3s ease;
-    width: 100%;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+    width: 210%;
 }
 
 .SalonImage2 {
-    border-radius: .5rem;
-    transition: transform .3s ease;
-    width: 100%;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+    width: 70%;
 }
 
 .SalonImage1:hover {
     transform: scale(1.05);
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
 }
 
 .SalonImage2:hover {
     transform: scale(1.05);
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
 }
 
-
-
-
-
-
-
-
-
-
-
 .TKDImage {
-    border-radius: .5rem;
-    transition: transform .3s ease;
-}   
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+}
 
 .TKDImage:hover {
     transform: scale(1.05);
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
 }
 
-.SalonImage  {
+.SalonImage {
     height: 20rem;
     width: 300;
     transform: scale(1.05);
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
 }
 
-.PosterImage  {
+.PosterImage {
     height: 20rem;
     width: 200px;
     transform: scale(1.05);
-    border-radius: .5rem;
-    transition: transform .3s ease;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
 }
 
 .contact-us {
-    font-size:14px
-} 
+    font-size: 14px;
+}
 
 .Contac-us2 {
     display: flex;
